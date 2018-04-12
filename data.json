@@ -1,0 +1,71 @@
+{
+    "result_count":5,
+    "area":"N11",
+    "listing":[
+        {
+            "num_bedrooms":"5",
+            "agent_address":"4-6 Station Road, New Barnet",
+            "property_type":"Detached house",
+            "description":" Built in 1949 on the site of the former Friern Barnet junior school this substantial five bedroom home sits on a large corner plot occupying approximately one third of an acre. Situated behind secure electronic gates the property which has a south west",
+            "agent_postcode":"EN5 1QW",
+            "details_url":"http://www.zoopla.co.uk/for-sale/details/39782877",
+            "price":"1800000",
+            "agent_name":"Your Move - Spencer & Sener",
+            "agent_logo":"http://st.zoocdn.com/zoopla_static_agent_logo_(326525).png",
+            "agent_phone":"020 3478 3306",
+            "image_url":"https://lid.zoocdn.com/354/255/655d446550a9f141484fa97562f79d9b89c6bed8.jpg"
+        },
+        {
+            "num_bedrooms":"7",
+            "agent_address":"58-60 Totteridge Lane, Whetstone, London",
+            "property_type":"Flat",
+            "description":"Set on the ground floor this large duplex Seven bed two Bath apartment with galleried landing and fully fitted kitchen is offered chain free.",
+            "agent_postcode":"N20 9QP",
+            "details_url":"http://www.zoopla.co.uk/for-sale/details/39323806",
+            "price":"1500000",
+            "agent_name":"Anscombe & Ringland",
+            "agent_logo":"http://st.zoocdn.com/zoopla_static_agent_logo_(58082).jpeg",
+            "agent_phone":"020 3478 3239",
+            "image_url":"https://lid.zoocdn.com/354/255/8cea943e0a4029f7146f2061331925a07e858a0e.jpg"
+        },
+        {
+            "num_bedrooms":"4",
+            "agent_address":"61 Highgate High Street, Highgate, London",
+            "property_type":"Flat",
+            "description":"A stunning duplex apartment in prestigious development",
+            "agent_postcode":"N6 5JX",
+            "details_url":"http://www.zoopla.co.uk/for-sale/details/39146219",
+            "price":"1100000",
+            "agent_name":"Day Morris",
+            "agent_logo":"http://st.zoocdn.com/zoopla_static_agent_logo_(46792).jpeg",
+            "agent_phone":"020 3478 3348",
+            "image_url":"https://lid.zoocdn.com/354/255/b653f8f40591bd24e0db37be2d6feb1273ba4dc9.jpg"
+        },
+        {
+            "num_bedrooms":"4",
+            "agent_address":"36 Muswell Hill Broadway, Muswell Hill",
+            "property_type":"Detached house",
+            "description":"Situated within good school catchment, close to Bounds Green tube station (Piccadilly Line), a rare opportunity to purchase this immaculately presented detached family home. (contd...)",
+            "agent_postcode":"N10 3RT",
+            "details_url":"http://www.zoopla.co.uk/for-sale/details/40273571",
+            "price":"1000000",
+            "agent_name":"Bairstow Eves - Muswell Hill Sales",
+            "agent_logo":"http://st.zoocdn.com/zoopla_static_agent_logo_(326283).png",
+            "agent_phone":"020 3463 0154",
+            "image_url":"https://lid.zoocdn.com/354/255/fb5e29d4e3ca1ed35f3e65ed9d438d325ed5bb20.jpg"
+        },
+        {
+            "num_bedrooms":"4",
+            "agent_address":"98 High Street, High Barnet",
+            "property_type":"Semi-detached house",
+            "description":" Set on a quiet street this fantastic four bedroom semi-detached house offers bright and spacious rooms, fantastic kitchen/dining room, downstairs cloakroom, master bedroom with en suite, and off-street parking. The property is set in a fantastic ...",
+            "agent_postcode":"EN5 5XQ",
+            "details_url":"http://www.zoopla.co.uk/for-sale/details/41461918",
+            "price":"975000",
+            "agent_name":"Foxtons - Barnet",
+            "agent_logo":"http://st.zoocdn.com/zoopla_static_agent_logo_(161658).png",
+            "agent_phone":"020 7768 0386",
+            "image_url":"https://lid.zoocdn.com/354/255/6e8866dd2fd9a758fef8fe619e20cd9f93c86ca8.jpg"
+        }
+    ]
+}

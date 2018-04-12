@@ -1,0 +1,22 @@
+{
+  "name": "zoopla.test",
+  "version": "1.0.0",
+  "description": "Zoopla test",
+  "main": "server/nodeserver.js",
+  "author": "Thomas Gualino",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.1",
+    "mocha": "^5.0.5",
+    "request": "^2.85.0",
+    "supertest": "^3.0.0"
+  }
+}

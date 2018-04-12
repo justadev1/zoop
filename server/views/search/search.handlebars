@@ -1,0 +1,40 @@
+<!-- No results section -->
+<div v-if="noResult">
+    <h3>No result found</h3>
+    <i>Enter another location and start again</i>
+</div>
+
+<!-- search box section -->
+<form action="/results" method="GET" v-if="listing && !listing.length" class="search">
+    <label v-if="!noResult">Search for houses and flats for sale across the UK</label>
+    <div>
+        <input name="search" v-model="areaCode" @focus="onFocus" autofocus/>
+        <button type="submit" @click="onSubmit($event)">Search</button>
+    </div>
+</form>
+
+<!-- result section -->
+<ul class="results">
+    <li class="property" v-for="property in listing">
+        <div class="property__preview">
+            <img :src="property.image_url" class="property__preview-image">
+        </div>
+        <div class="property__details">
+            <h2>
+                \{{ property.num_bedrooms }}
+                \{{ property.num_bedrooms === 1 ? 'bed' : 'beds' }}
+                \{{ property.property_type.toLowerCase() }} for sale
+            </h2>
+            <mark>\{{format(property.price)}}</mark>
+            <p>\{{ property.description }}</p>
+        </div>
+        <div class="property__agency">
+            <img :src="property.agent_logo" class="property__agency-logo">
+            <ul class="property__agency-details">
+                <li>\{{ property.agent_name }}</li>
+                <li>\{{ property.agent_address }}</li>
+                <li>T: \{{ property.agent_phone }}</li>
+            </ul>
+        </div>
+    </li>
+</ul>

@@ -1,0 +1,54 @@
+// all css specific to section of the page
+
+.results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .property {
+        display: flex;
+        flex-direction: var(--flexdir);
+        flex-wrap: var(--flexwrap);
+        padding-top: calc(var(--offset) * 2);
+        overflow: hidden;
+
+        &:first-of-type {
+            padding-top: var(--offset);
+        }
+
+        &__details,
+        &__preview {
+            flex: 2;
+            margin: 0 var(--offset) 0 0;
+        }
+
+        &__preview {
+            min-width: var(--previewMinWidth);
+        }
+
+        &__preview-image {
+            width: 100%;
+            height: auto;
+        }
+
+        &__agency {
+            background-color: $color-light-grey;
+            flex: 1;
+            padding: $std-offset-small;
+            font-size: $font-size-small;
+            margin-top: var(--agencyTopPadding);
+            min-width: var(--agencyMinWidth);
+
+            &-logo {
+                max-width: 100%;
+                height: auto;
+            }
+
+            &-details {
+                padding: 0;
+                list-style: none;
+                line-height: $font-size-small * 2;
+            }
+        }
+    }
+}

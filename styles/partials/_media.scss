@@ -1,0 +1,39 @@
+// all media query to make the page responsive
+
+@media screen and (min-width : 768px) and (max-width : 1199px) {
+    body {
+        // Using CSS variables here, so I need much less code than with cascading.
+        // The variable is changed here, and the change is dynamically
+        // reflected in every place where I use it
+        --offset: #{$std-offset-md};
+        --flexwrap: wrap;
+        --flexdir: row;
+        --agencyTopPadding: #{$std-offset-md};
+        --agencyMinWidth: 100%;
+        --previewMinWidth: 100%;
+        --previewMinWidth: initial;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width : 767px) {
+    body {
+        --offset: #{$std-offset-sd};
+        --flexwrap: #{nowrap};
+        --flexdir: column;
+        --agencyTopPadding: 0;
+        --agencyMinWidth: initial;
+        --previewMinWidth: 100%;
+    }
+}
+
+@media screen and (min-width : 1200px){
+    body {
+        --offset: #{$std-offset};
+        --flexwrap: #{nowrap};
+        --flexdir: row;
+        --agencyTopPadding: 0;
+        --agencyMinWidth: initial;
+        --previewMinWidth: initial;
+    }
+}
